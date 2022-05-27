@@ -24,10 +24,22 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+        public double f1(double x, double q, double a)
+        {
 
+            double f1;
+            f1 = (Math.Log(q * Math.Sin(a - x)) / (q + x));
+            return f1;
+        }
+         public double f2(double x, double q, double a)
+        {
+            double f2;
+            f2 = Math.Sqrt(Math.Sqrt(q - a)) * x;
+            return f2;
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            /*
+            
             if (listBox_f1.Items.Count != 0)
             {
                 listBox_f1.Items.Clear();
@@ -38,7 +50,7 @@ namespace WpfApp1
             }
             Random rd = new Random();
             double xmin, xmax, dx, q, func, x;
-            const double a = 0.5;
+            const double a = 0.45;
             int cilc_f1 = 0;
             int cilc_f2 = 0;
             int cilc_def_f1 = 0;
@@ -87,7 +99,7 @@ namespace WpfApp1
             Num_f2.Text = $"Number of calculations of f2(x) : {cilc_f2}";
             def_f1.Text = $"Number of defined expressions of f1(x) : {cilc_def_f1}";
             def_f2.Text = $"Number of defined expressions of f2(x) : {cilc_def_f2}";
-            */
+            
         }
     }
 }
