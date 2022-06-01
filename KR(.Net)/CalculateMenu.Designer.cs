@@ -130,14 +130,18 @@ namespace KR_.Net_
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(320, 25);
             this.panel1.TabIndex = 16;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
             // X
             // 
+            this.X.AutoSize = true;
             this.X.Cursor = System.Windows.Forms.Cursors.Hand;
             this.X.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.X.Location = new System.Drawing.Point(295, 0);
+            this.X.Location = new System.Drawing.Point(296, -1);
             this.X.Name = "X";
-            this.X.Size = new System.Drawing.Size(25, 25);
+            this.X.Size = new System.Drawing.Size(26, 25);
             this.X.TabIndex = 17;
             this.X.Text = "X";
             this.X.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -163,8 +167,10 @@ namespace KR_.Net_
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CalculateMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

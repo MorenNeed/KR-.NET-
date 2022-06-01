@@ -75,18 +75,25 @@ namespace KR_.Net_
             this.panel1.Controls.Add(this.X);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(160, 25);
             this.panel1.TabIndex = 18;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
             // X
             // 
+            this.X.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.X.AutoSize = true;
             this.X.Cursor = System.Windows.Forms.Cursors.Hand;
             this.X.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.X.Location = new System.Drawing.Point(135, 0);
+            this.X.Location = new System.Drawing.Point(136, -1);
+            this.X.Margin = new System.Windows.Forms.Padding(0);
             this.X.Name = "X";
             this.X.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.X.Size = new System.Drawing.Size(25, 25);
+            this.X.Size = new System.Drawing.Size(26, 25);
             this.X.TabIndex = 0;
             this.X.Text = "X";
             this.X.UseVisualStyleBackColor = true;
@@ -105,12 +112,14 @@ namespace KR_.Net_
             this.Controls.Add(this.button1);
             this.Controls.Add(this.name);
             this.Controls.Add(this.pictureBox1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StudentInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StudentInfo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
