@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculateMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalculateMenu.Designer.cs">
+      <DependentUpon>CalculateMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentInfo.Designer.cs">
+      <DependentUpon>StudentInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="InputDataForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CalculateMenu.resx">
+      <DependentUpon>CalculateMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InputDataForm.resx">
       <DependentUpon>InputDataForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -67,6 +82,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="StudentInfo.resx">
+      <DependentUpon>StudentInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +96,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="images\f2.png" />
+    <Resource Include="images\f1.png" />
     <Content Include="images\image_of_student.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

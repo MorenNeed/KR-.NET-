@@ -16,7 +16,7 @@ namespace KR_.Net_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InputDataForm());
+            Application.Run(new StudentInfo());
         }
     }
 }
