@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KR(.Net)", "KR(.Net)\KR(.Net).csproj", "{98603EC4-C94B-4EC1-9B09-493DA37DFE8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{9261C9EE-A6BD-4C31-94BD-B085482CF966}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupKR(.NET)", "SetupKR(.NET)\SetupKR(.NET).vdproj", "{A76F6E55-AE10-41C4-A7BB-3C1184097391}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,8 @@ Global
 		{98603EC4-C94B-4EC1-9B09-493DA37DFE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98603EC4-C94B-4EC1-9B09-493DA37DFE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98603EC4-C94B-4EC1-9B09-493DA37DFE8C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9261C9EE-A6BD-4C31-94BD-B085482CF966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9261C9EE-A6BD-4C31-94BD-B085482CF966}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9261C9EE-A6BD-4C31-94BD-B085482CF966}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9261C9EE-A6BD-4C31-94BD-B085482CF966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76F6E55-AE10-41C4-A7BB-3C1184097391}.Debug|Any CPU.ActiveCfg = Debug
+		{A76F6E55-AE10-41C4-A7BB-3C1184097391}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

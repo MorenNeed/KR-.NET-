@@ -42,7 +42,9 @@ namespace KR_.Net_
             this.def_f1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox_f1
@@ -50,7 +52,7 @@ namespace KR_.Net_
             this.listBox_f1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBox_f1.FormattingEnabled = true;
             this.listBox_f1.ItemHeight = 15;
-            this.listBox_f1.Location = new System.Drawing.Point(7, 40);
+            this.listBox_f1.Location = new System.Drawing.Point(7, 88);
             this.listBox_f1.Name = "listBox_f1";
             this.listBox_f1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.listBox_f1.Size = new System.Drawing.Size(120, 94);
@@ -61,7 +63,7 @@ namespace KR_.Net_
             this.listBox_f2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBox_f2.FormattingEnabled = true;
             this.listBox_f2.ItemHeight = 15;
-            this.listBox_f2.Location = new System.Drawing.Point(177, 40);
+            this.listBox_f2.Location = new System.Drawing.Point(232, 88);
             this.listBox_f2.Name = "listBox_f2";
             this.listBox_f2.Size = new System.Drawing.Size(120, 94);
             this.listBox_f2.TabIndex = 9;
@@ -70,7 +72,7 @@ namespace KR_.Net_
             // 
             this.f1x.AutoSize = true;
             this.f1x.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.f1x.Location = new System.Drawing.Point(52, 25);
+            this.f1x.Location = new System.Drawing.Point(52, 73);
             this.f1x.Name = "f1x";
             this.f1x.Size = new System.Drawing.Size(30, 15);
             this.f1x.TabIndex = 10;
@@ -80,7 +82,7 @@ namespace KR_.Net_
             // 
             this.f2x.AutoSize = true;
             this.f2x.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.f2x.Location = new System.Drawing.Point(222, 25);
+            this.f2x.Location = new System.Drawing.Point(277, 73);
             this.f2x.Name = "f2x";
             this.f2x.Size = new System.Drawing.Size(30, 15);
             this.f2x.TabIndex = 11;
@@ -90,7 +92,7 @@ namespace KR_.Net_
             // 
             this.Num_f1.AutoSize = true;
             this.Num_f1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Num_f1.Location = new System.Drawing.Point(4, 167);
+            this.Num_f1.Location = new System.Drawing.Point(4, 214);
             this.Num_f1.Name = "Num_f1";
             this.Num_f1.Size = new System.Drawing.Size(179, 15);
             this.Num_f1.TabIndex = 13;
@@ -100,7 +102,7 @@ namespace KR_.Net_
             // 
             this.Num_f2.AutoSize = true;
             this.Num_f2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Num_f2.Location = new System.Drawing.Point(4, 241);
+            this.Num_f2.Location = new System.Drawing.Point(4, 275);
             this.Num_f2.Name = "Num_f2";
             this.Num_f2.Size = new System.Drawing.Size(179, 15);
             this.Num_f2.TabIndex = 14;
@@ -110,7 +112,7 @@ namespace KR_.Net_
             // 
             this.def_f2.AutoSize = true;
             this.def_f2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.def_f2.Location = new System.Drawing.Point(4, 281);
+            this.def_f2.Location = new System.Drawing.Point(4, 300);
             this.def_f2.Name = "def_f2";
             this.def_f2.Size = new System.Drawing.Size(221, 15);
             this.def_f2.TabIndex = 17;
@@ -120,7 +122,7 @@ namespace KR_.Net_
             // 
             this.def_f1.AutoSize = true;
             this.def_f1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.def_f1.Location = new System.Drawing.Point(4, 199);
+            this.def_f1.Location = new System.Drawing.Point(4, 246);
             this.def_f1.Name = "def_f1";
             this.def_f1.Size = new System.Drawing.Size(221, 15);
             this.def_f1.TabIndex = 16;
@@ -157,11 +159,22 @@ namespace KR_.Net_
             this.button1.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
             this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::KR_.Net_.Properties.Resources.f1;
+            this.pictureBox1.Location = new System.Drawing.Point(7, 28);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(345, 42);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // InputDataForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 324);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.def_f2);
             this.Controls.Add(this.def_f1);
@@ -178,6 +191,7 @@ namespace KR_.Net_
             this.Text = "DataForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,5 +208,6 @@ namespace KR_.Net_
         public System.Windows.Forms.Label def_f1;
         public System.Windows.Forms.Panel panel1;
         public System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
